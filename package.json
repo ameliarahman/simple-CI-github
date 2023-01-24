@@ -1,0 +1,25 @@
+{
+  "name": "simple-ci-github",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ameliarahman/simple-CI-github.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ameliarahman/simple-CI-github/issues"
+  },
+  "homepage": "https://github.com/ameliarahman/simple-CI-github#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "express": "^4.18.2",
+    "mocha": "^10.2.0"
+  }
+}
