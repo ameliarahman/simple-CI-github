@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const { test } = require('./controller')
-const port = 3009
+const port = process.env.PORT || 3009
 
 app.get('/', (req, res) => {
     const data = test()
